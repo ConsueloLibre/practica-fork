@@ -1,0 +1,24 @@
+/*selector univeral peca todo los <p> los <div> etc...y lo convierte en lo que yo le diga
+*{
+  background: color:blue;
+}
+*/
+.azul{
+  background-color: blue;
+}
+h1,h2{
+  color:pink;
+}
+a {
+  color:white;
+  text-decoration: none
+}
+div{
+  background-color:red;
+}
+li:first-of-type+li{
+  color:white;
+}
+li:first-child{
+  color:yellow
+}
